@@ -1,0 +1,5 @@
+'use stritc';
+---------------------------------------------------------------------------
+
+http://forum.tableless.com.br/t/uso-do-use-strict/453/2
+http://pt.stackoverflow.com/questions/2746/quando-por-que-e-como-utilizar-a-diretiva-use-strict-em-javascript
