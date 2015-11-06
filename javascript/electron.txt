@@ -1,0 +1,29 @@
+Electron
+--------------------------------------------------------------------------------
+http://electron.atom.io/
+--------------------------------------------------------------------------------
+
+Building a desktop application with Electron
+https://medium.com/developers-writing/building-a-desktop-application-with-electron-204203eeb658
+--------------------------------------------------------------------------------
+
+
+# o que é
+	. framework javascript para desenvolvimento de aplicativos nativos descktop;
+	. 
+
+# estrutura
+	. 
+	
+# operação
+	. main process
+		- responsavel por interagir com a GUI sistema operacional, e criar a GUI do aplicativo desenvolvido;
+		- iniciar o main process puro, não cria uma window, é necessário o modulo 'BrowserWindow';
+		- cada 'BrowserWindow' executa seu próprio processo de renderização 'renderer process';
+	
+	. rederer process
+		- renderiza na window uma web page com html, css, javascript, imagens, etc...;
+		- a web page é rendereizada com o 'Chormium' super leve;
+		- quando uma 'BrowserWindow' é finalizada, o 'rederere' correspondente també é encerrado;
+	
+	
