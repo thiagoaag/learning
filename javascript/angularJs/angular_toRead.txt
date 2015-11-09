@@ -1,0 +1,23 @@
+[ ] Starting with AngularJS
+    - http://blog.revolunet.com/blog/2013/06/01/starting-with-angularjs/
+
+[ ] Everything you need to understand to Start with AngularJS
+    - http://stephanebegaudeau.tumblr.com/post/48776908163/everything-you-need-to-understand-to-start-with
+
+[ ] How do I “think in AngularJS” if I have a jQuery background?
+    - http://stackoverflow.com/questions/14994391/how-do-i-think-in-angularjs-if-i-have-a-jquery-background/15012542#15012542
+
+[ ] AngularJS for jQuery Developers
+    - http://www.artandlogic.com/blog/2013/03/angularjs-for-jquery-developers/
+
+[ ] Ultimate Guide to Learning AngularJS in One Day
+    - http://toddmotto.com/ultimate-guide-to-learning-angular-js-in-one-day/
+
+[ ] A Step-by-Step Guide to Your First AngularJS App
+    - http://www.toptal.com/angular-js/a-step-by-step-guide-to-your-first-angularjs-app
+
+[ ] AngularJS-Brazil
+    - https://groups.google.com/forum/#!topic/angularjs-brazil/9RMeGsQUQLI
+
+[ ] Batarang (Chrome Extesion)
+    - https://github.com/angular/angularjs-batarang
