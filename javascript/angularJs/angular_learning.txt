@@ -1,0 +1,108 @@
+AngularJs
+--------------------------------------------------------------------------------
+Site Offical
+- https://angularjs.org/
+
+ANGULARJS COM DANIEL AMORIM E TANIA GONZALES
+- http://tecnologicamentearretado.com.br/2015/01/17/angularjs-com-danial-e-tania/
+--------------------------------------------------------------------------------
+
+# DESCRIÇÃO
+	- é um framework MVC estruturado;
+	- tudo que se cria no Angular são modulos;
+	- anuglarJs sobrecarrega varias tags do HTML;
+	- funciona como uma extensão ao documento HTML;
+
+	- veiw
+		a definição de view no Angular, é o conjunto de elementos (<div-, <body-, <table-, etc...);
+
+	- mantra
+		não quebrar o mantra, SEMPRE EVITAR ler o $scople dentro do controller;
+
+	- two way data binding:
+		é um ciclo de notificação do Angular;
+
+	- compile
+		compila as diretivas;
+
+
+# DATABIND
+	- uma forma de ligar automaticamente uma variável qualquer a uma outra;
+		geralmente, o DataBind é usado para ligar uma variável do JavaScript (ou um objeto) a algum elemento do documento HTML;
+
+	- DataBind é dinâmico;
+	- bind também pode ser realizado em objetos;
+
+	- $scope
+		usado para criar uma conexção entre o model e a view;
+
+# CONTROLLER
+	- geralmente é um arquivo JavaScript que contém funcionalidades pertinentes à alguma parte do documento HTML;
+	- é usado para manipular regras de negócio que podem ou não alterar os models;
+
+
+# DIRETRIVAS
+	- são extenções declarativas do HTML, permite implementar novos comportamentos de forma declarativa;
+
+	- ng-app
+		define as fronteiras da aplicação;
+		é o modulo principal;
+		o Angular executa um serviço chamado 'compile' que compila e executa cada uma das diretivas para que elas façam o que estão programadas a fazer;
+
+	- ng-controller
+		cria um vinculo entre os elementos da view e o controller, e é dessa
+		relação que veio o '$scope' (objeto compartilhado entre a view e o controller);
+
+	- ng-bind
+		faz o binding entre os elementos do $scope, faz a interpoloação da expressão, ou seja, pega algo do $scope e exibe;
+
+	- ng-repeat
+		iteração entre os itens de uma coleção;
+
+	- ng-model
+		faz o inverso do bind, pega algo da view e define no $scope (inputs, selects, textArea);
+
+
+	- ng-click, ng-focus, etc...
+		eventos do JavaScript;
+
+
+	- ng-disable
+		desabilitar um elemento dinamicamente;
+
+
+	- ng-options
+		renderiza as opções de um select;
+
+
+	- ng-class e ng-style
+		aplica classes css e estilos dinamicamente;
+
+
+	- ng-show, ng-hide e ng-if
+		exibir elementos de forma condicional;
+		ng-if interage com a DOM removendo o elemento;
+
+	- ng-include
+		incluir elementos dinamicamente;
+
+	- forms
+		- ng-required
+			define um determinado campo como obrigatorio, acessado pelo seu form;
+			a partir do required é possivel verfificar a validade de um campo através do '$valid' e '$invalid';
+			é possível verificar a validade de um campo, através da sua tag name;
+
+		- $pristine e $dirty
+			verificar se um formulário ou campo já foi utilizado alguma vez;
+			para que o formulário volte a seu estado inicial utilizar 'setPristine()';
+
+	- ng-Minlength e ng-Maxlength
+		define o tamanho minimo e maximo de um campo;
+		não é uma 'mascara', pois perminte ultrapassar os valores definidos;
+
+		- $error
+			consulta erros de um campo no formulário;
+			contema as validações e seus respectivos status;
+
+	- ng-pattern
+		define uma RegExp(expressão regular) para validar o campo;
