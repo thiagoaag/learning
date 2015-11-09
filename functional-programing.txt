@@ -1,7 +1,13 @@
 functional programing
 --------------------------------------------------------------------------------
 
+[paradgma]
+http://www.infoq.com/br/presentations/programacao-funcional-por-que-importa
+http://tecnologicamentearretado.com.br/2014/12/31/programacao-funcional-com-erick-e-bruno/
+http://andreiformiga.com/livro/ocaml/
 
+[python]
+http://programeempython.blog.br/blog/as-varias-faces-do-python-programacao-funcional/
 
 [javascript]
 http://ramdajs.com/0.18.0/index.html
