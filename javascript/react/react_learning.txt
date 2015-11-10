@@ -11,6 +11,9 @@ https://facebook.github.io/react/
   
 - React for beginners (no free)
   https://reactforbeginners.com/
+  
+- react-flux-puzzle (game)
+  https://github.com/weslleyaraujo/react-flux-puzzle
 
 
 -------------------------------------------------------------------------
