@@ -1,0 +1,34 @@
+REST
+-----------------------------------------------------------
+
+# Fontes 
+
+Uma rápida Introdução ao REST
+http://www.infoq.com/br/articles/rest-introduction
+
+O Que É REST? Um Resumo Do Assunto
+http://www.rodrigocalado.com.br/o-que-e-rest-um-resumo-do-assunto-caracteristicas-conceitos-vantagens-e-desvantagens-prefiro-dizer-que-e-uma-rapida-introducao-ao-assunto/
+
+-----------------------------------------------------------
+
+
+
+# REST
+
+	Definição
+		- REST (REpresentational State Transfer)
+		- comunicação heterogênea de aplicação-para-aplicação;
+		- um paradigma arquitetônico;
+		
+		
+	
+	
+	RESTful
+		- é um serviço web que usufrui deste paradigma;
+		
+
+		
+
+
+
+
