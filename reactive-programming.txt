@@ -10,4 +10,7 @@ Reactive Programming
 - ReactiveX
   http://reactivex.io/
   
+- RxJS (e-book)
+  http://xgrommx.github.io/rx-book/
+  
 -------------------------------------------------------------------------------------
