@@ -1,0 +1,15 @@
+CommonJS
+--------------------------------------------------------------------------------
+
+Como criar componentes JS usando módulos - AMD, CommonJS e UMD - Parte 2/3
+http://blog.da2k.com.br/2015/01/04/como-criar-componentes-js-usando-modulos-amd-commonjs-e-umd-parte-2-3/
+
+node.js module patterns using simple examples
+https://darrenderidder.github.io/talks/ModulePatterns/#/
+
+
+--------------------------------------------------------------------------------
+
+
+
+
