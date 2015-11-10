@@ -5,4 +5,7 @@ https://facebook.github.io/flux/docs/overview.html
 
 
 
+- My thoughts on my first Flux application
+  https://medium.com/@_weslleyaraujo/my-thoughts-on-my-first-flux-application-a1fd1cccd724
+
 -------------------------------------------------------------------------
