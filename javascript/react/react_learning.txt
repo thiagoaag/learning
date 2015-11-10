@@ -8,6 +8,9 @@ https://facebook.github.io/react/
 
 - Building Plugins for React Apps
   https://nylas.com/blog/react-plugins/
+  
+- React for beginners (no free)
+  https://reactforbeginners.com/
 
 
 -------------------------------------------------------------------------
