@@ -3,8 +3,11 @@ react
 https://facebook.github.io/react/
 -------------------------------------------------------------------------
 
-Building Plugins for React Apps
-https://nylas.com/blog/react-plugins/
+- Começando com React
+  https://www.hugobessa.com.br/posts/comecando-com-react/
+
+- Building Plugins for React Apps
+  https://nylas.com/blog/react-plugins/
 
 
 -------------------------------------------------------------------------
