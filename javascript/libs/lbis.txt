@@ -1,0 +1,6 @@
+vega - http://vega.github.io/vega/
+---------------------------------------------------------------------------------
+Vega is a visualization grammar, a declarative format for creating and saving 
+interactive visualization designs. With Vega you can describe data visualizations 
+in a JSON format, and generate interactive views using either HTML5 Canvas or SVG.
+
