@@ -1,0 +1,10 @@
+resposive
+----------------------------------------------------------------------------------
+
+Mobile Conf 2013 - Sergio Lopes sobre Telas de alta resolução
+https://www.youtube.com/watch?v=1haOUdZRCH4
+
+Sabe as media queries do CSS? Você pode usá-las em JS também
+http://us1.campaign-archive2.com/?u=422bed2b74623ede65048a641&id=42515c67cb&e=b0f9184e85
+
+----------------------------------------------------------------------------------
