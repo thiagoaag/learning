@@ -7,10 +7,17 @@ https://www.youtube.com/watch?v=1haOUdZRCH4
 Sabe as media queries do CSS? Você pode usá-las em JS também
 http://us1.campaign-archive2.com/?u=422bed2b74623ede65048a641&id=42515c67cb&e=b0f9184e85
 
-Web Design Responsivo - Páginas adaptáveis para todos os dispositivos
+Web Design Responsivo - Páginas adaptáveis para todos os dispositivos [Tárcio Zemel]
 http://www.casadocodigo.com.br/products/livro-web-design-responsivo
+
+O que é Responsive Web Design?
+http://arquiteturadeinformacao.com/mobile/o-que-e-responsive-web-design/
 
 ----------------------------------------------------------------------------------
 
 
 # O que é
+  Web Design Responsivo é uma abordagem de web design destinada a elaborar sites 
+  para fornecer uma ótima experiência de visualização, fácil leitura e navegação com 
+  um mínimo de redimensionamento e visionamento, para uma ampla gama de dispositivos;
+
