@@ -22,6 +22,8 @@ http://arquiteturadeinformacao.com/mobile/o-que-e-responsive-web-design/
   - breakpoints: tamanho das resoluções 640x480, 1024x600, 1280x800, etc;
   - assets: recursos como imagens, vídeos, etc;
   - ppi (“Pixels per inch”, densidade de pixels);
+  - pixel perfect: layout identico ao previsto por imagens de web designers;
+  - CSS reset: tecnica css para resetar os valores padrão dos seletores;
 
 # O que é
   - Web Design Responsivo é uma abordagem de web design destinada a elaborar sites 
@@ -41,6 +43,50 @@ http://arquiteturadeinformacao.com/mobile/o-que-e-responsive-web-design/
 # resolução
   - O equívoco comum é ainda não ter entendido que, na verdade, o que importa
     não é o tamanho físico da tela ou o dispositivo, em si, mas sua resolução;
+    
+    
+# layout fluído
+	- Para se conseguir um layout fluído num projeto web, a principal medida a ser 
+	  tomada é: não usar medidas absolutas no CSS!
+	  
+	  
+	- Tipos de medida em CSS
+
+		. Pixel (px). É a unidade de medida fixa, um pixel é um ponto indivisível 
+		  na tela de exibição de um dispositivo;
+		
+		. Ponto (point). Pontos são tradicionalmente utilizados para CSSs de impressão;
+		
+		. Ems (em). O “em” é uma unidade escalável. Quando se trata do tamanho da fonte,
+		  1em é igual ao tamanho atual da fonte do elemento-pai;
+		  [user ems para lidar com fontes]
+		 
+		. Porcentagem (%). A unidade porcento é muito parecida com a unidade “em”, mas 
+		  possui algumas diferenças fundamentais.
+		 [usar porcentagem para lidar com tamanhos no layout (larguras, margens, espaçamentos, etc]
+		 
+		 
+	- Fórmula mágica do web design responsivo
+		
+		Alvo / Contexto = Resultado
+		
+		• Alvo. Elemento-alvo com a medida atual;
+		• Contexto. Onde o elemento-alvo está (baseado no elemento-pai);
+		• Resultado. O valor relativo que se está procurando.
+		
+	- Metatag viewport
+		- dentro do contexto de desenvolvimento web, viewport é a parte visível da página web 
+		  que é renderizada pelos navegadores (desprezando painéis, barras de menu, plugins, 
+		  barra de rolagem, etc);		
+		
+		- Os browsers mobile tentam exibir páginas web feitas somente para desktop ajustando, 
+		  automaticamente, o zoom do display, e a tag viewport sever para contornar essa 
+		  característica dos navegadores mobile;
+		
+		
+		
+	
+	  
 
 # filosofia mobile first
   
