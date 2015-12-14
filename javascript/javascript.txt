@@ -1,2 +1,142 @@
-javascript
--------------------------------------------------------------------------
+JavaScript
+------------------------------------------------------------------------------------------------
+Desvendando a linguagem JavaScript
+	https://www.youtube.com/user/rodrigobranas
+
+Modularização em JavaScrip
+	http://tableless.com.br/modularizacao-em-javascript/
+	
+JavaScript – Wrapper Objects
+	https://taprogramando.wordpress.com/2013/08/06/javascript-wrapper-objects/
+
+
+
+
+
+# Caracteristicas
+-----------------
+	linguagem interpretada;
+	possui orientação a objetos baseda em protoripos (não possuindo classes);
+	tipagem fraca;
+	funções de primeira classe;
+	não apresenta suporte a multi-thread (mas.... os interpretadores conseguem);
+
+  Variaveis
+    - case-sentive;
+    - tipagem fraca;
+    - palavra reservada 'var';
+    - covenção: começa com letra minúscula e usa camelCase;
+
+# Tipos de dados
+
+  tudo em JavaScript, com exceção de null e undefined, é um objeto, até mesmo os valores primitivos (String, Number or Boolean) herdam de Object.
+	
+	Tipos primitivos
+    são imutáveis;
+	 
+    number
+      - não faz diferença entre tipos de numerais (float, doble ou int);
+      - possui API com diversas funcionalidades;
+
+    Math API
+      - similar a classe Math do Java;
+
+		- string
+			pode usar aspas simples ou duplas (pro conveção usa-se aspas simples);
+			possui API com diversas funcionalidades;
+
+		- boolean
+			dependendo do uso do objeto, o Javascript trata como boolean;
+			"CUIDADO" com os tipos 'truty' e 'falsy';
+
+		- undefinde
+			é retornada no caso uma propriedade de um determindado objeto que;
+			não exista, quando acessado;
+
+		- null
+			é simplismente a ausencia de valor, de uma propriedade já existente;
+
+	- Tipos de Object
+		- são mutáveis;
+    	- é uma coleção dinamica de chaves e valores de qualquer tipo de dado;
+		- criação dinamica, é possivel adicionar ou remover propriedades em qualquer momento;
+		- não tem construtor;
+		- não tem métodos;
+
+# Funções
+	é um objeto que contém um bloco de código executavel;
+	este bloco é isolado, não sendo possivel acessar externamente;
+	as funções são de 'primeira classe':
+    	- pode ser atrtibuida a uma variável;
+		- pode ser passada como parametro, e também ser retornada;
+	variavel implicita 'arguments';
+
+  * criar funções
+    > function declaration; (é carregada antes de interpretação)
+    > function expression; (é carregada no momento da interpretação)
+    > named function expression;
+
+  * invocando funções
+    > por escopo 'global';
+    > por objeto;
+    > por 'call' e 'apply':
+      - toda função possui os métods call() e apply();
+      - são utilizados para indicar em qual escopo a função deve ser executada;
+    > por meio do operador 'new':
+      - o new conseque (simular a instanciação) de funções;
+      >> funções fábrica:
+        - constrio o objeto e retorna ele;
+
+      >> funçãoes construtoras:
+        - por converçção começão com letra maiuscula;
+        - funciona de forma similar ao método construtor do Java;
+
+  * closures
+    > mantem as referencias dos recursos externos as funções. É por este motivo
+      que as funções de callback funcionam;
+
+  * cuidado com escopo 'global'
+    > o grande proplema do escopo global, é que ele pode ficar 'poluído', ou
+      seja, com varias referencias de objetos diferentes.
+
+  * encapsulamento
+    > por meio de 'object';
+    > por meio de 'function';
+
+
+
+
+# Modularização em JavaScrip
+----------------------------
+	- reuso de código
+		modularização são a redução da complexidade, separação de interesses e manutenção descomplicada;
+
+	- encapsulamento
+		é um dos fundamentos da programação orientada a objetos tradicional;
+		JavaScript possui um escopo global, que quando em navegadores é window;
+		a maneira mais fácil de alcançar encapsulamento é utilizando uma função	anônima invocada imediatamente após sua definição;
+		este pattern chama-se Immediately-Invoked Function Expression (IIFE);
+
+  * modulos
+    > o mais simples dos padrões de escrita de módulos em JavaScript
+      é o module pattern;
+
+  * Revealing Module Pattern
+    > variação de moule pattern;
+    > Neste padrão, todas as funções e valores do módulo são acessíveis no
+      escopo local e apenas referências são retornadas na forma de objeto;
+
+  * Namespace
+    > é a criação de um namespace de uso específico para os módulos;
+
+  * Asyncronous Module Definition (AMD)
+    > Módulos AMD podem ser requisitados, definidos e utilizados a medida
+      que necessários;
+    > Diferente de outros sistemas de módulos, as dependências de cada
+      módulo AMD são indicadas na sua própria definição. Isto significa
+      que as dependências não precisam estar prontas para o uso assim que o
+      módulo seja definido, estas podem ser carregadas assincronamente
+      condicionando a execução do módulo;
+    > quando não definimos o identificador de um módulo na sua definição, então
+      os módulos podem (e devem) ser definidos um em cada arquivo e, nestes
+      casos, o nome do arquivo torna-se o identificador.
