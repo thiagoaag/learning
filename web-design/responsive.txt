@@ -18,11 +18,31 @@ http://arquiteturadeinformacao.com/mobile/o-que-e-responsive-web-design/
 
 ----------------------------------------------------------------------------------
 
+# key words
+  - breakpoints: tamanho das resoluções 640x480, 1024x600, 1280x800, etc;
+  - assets: recursos como imagens, vídeos, etc;
+  - ppi (“Pixels per inch”, densidade de pixels);
 
 # O que é
-  Web Design Responsivo é uma abordagem de web design destinada a elaborar sites 
-  para fornecer uma ótima experiência de visualização, fácil leitura e navegação com 
-  um mínimo de redimensionamento e visionamento, para uma ampla gama de dispositivos;
+  - Web Design Responsivo é uma abordagem de web design destinada a elaborar sites 
+    para fornecer uma ótima experiência de visualização, fácil leitura e navegação com 
+    um mínimo de redimensionamento e visionamento, para uma ampla gama de dispositivos;
+  
+  - é aquele web design que responde a quaisquer dispositivos/resoluções e, devido 
+    a uma série de características técnicas bem específicas, é bem apresentado 
+    em qualquer um deles;
+  
+
+# trinca tecnológica - 3 tecnologias principais 
+  1. Layout fluído;
+  2. magens e recursos flexíveis; e
+  3. Media Queries.
+  
+# resolução
+  - O equívoco comum é ainda não ter entendido que, na verdade, o que importa
+    não é o tamanho físico da tela ou o dispositivo, em si, mas sua resolução;
+
+# filosofia mobile first
   
 
 
