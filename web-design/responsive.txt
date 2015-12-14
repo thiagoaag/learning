@@ -1,6 +1,9 @@
 web design resposive
 ----------------------------------------------------------------------------------
 
+Web Design Responsivo
+https://pt.wikipedia.org/wiki/Web_Design_Responsivo
+
 Mobile Conf 2013 - Sergio Lopes sobre Telas de alta resolução
 https://www.youtube.com/watch?v=1haOUdZRCH4
 
@@ -20,4 +23,6 @@ http://arquiteturadeinformacao.com/mobile/o-que-e-responsive-web-design/
   Web Design Responsivo é uma abordagem de web design destinada a elaborar sites 
   para fornecer uma ótima experiência de visualização, fácil leitura e navegação com 
   um mínimo de redimensionamento e visionamento, para uma ampla gama de dispositivos;
+  
+
 
