@@ -37,7 +37,7 @@ http://arquiteturadeinformacao.com/mobile/o-que-e-responsive-web-design/
 
 # trinca tecnológica - 3 tecnologias principais 
   1. Layout fluído;
-  2. magens e recursos flexíveis; e
+  2. imagens e recursos flexíveis; e
   3. Media Queries.
   
 # resolução
