@@ -1,0 +1,33 @@
+Padrões JavaScript
+  - Stoyan Stefanov
+
+
+
+> O que são padrões?
+    São soluções para problemas conhecidos.
+
+    Ajudam a dividir e focalizar o problema em partes;
+
+
+
+- clousers
+  https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures
+
+  escopo léxico
+
+
+- objetos de primeira classe
+
+
+função imediata
+
+
+padrões de projeto
+
+padrões de código
+
+antipatterns
+
+> conceitos
+  - OOP
+    objetos de ativação

@@ -1,0 +1,29 @@
+ajax ( Asynchronous JavaScript e XML)
+--------------------------------------------------------------------------------
+
+Primeiros passos - ajax
+https://developer.mozilla.org/pt-BR/docs/AJAX/Getting_Started
+
+Desmistificando o AJAX
+http://jack.eti.br/www/arquivos/apostilas/web/apostila_ajax.pdf
+
+O objeto XMLHttpRequest
+http://www.linhadecodigo.com.br/artigo/922/o-objeto-xmlhttprequest.aspx
+
+--------------------------------------------------------------------------------
+
+
+# o que é
+	. faz uso do objeto XMLHttpRequest para se comunicar com os scripts do lado do servidor;
+
+
+# caracteristicas
+  . assincrono;
+
+
+# o XMLHttpRequest
+  . é uma API disponível em linguagens de script para navegadores web tais como JavaScript;
+  . utilizada para enviar requisições HTTP ou HTTPS diretamente para um servidor web e
+    carregar os dados de resposta do servidor diretamente de volta ao script;
+  . permite que as requisições HTTP sejam feitas via browser;
+
