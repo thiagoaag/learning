@@ -59,7 +59,7 @@ http://arquiteturadeinformacao.com/mobile/o-que-e-responsive-web-design/
 		
 		. Ems (em). O “em” é uma unidade escalável. Quando se trata do tamanho da fonte,
 		  1em é igual ao tamanho atual da fonte do elemento-pai;
-		  [user ems para lidar com fontes]
+		  [usar ems para lidar com fontes]
 		 
 		. Porcentagem (%). A unidade porcento é muito parecida com a unidade “em”, mas 
 		  possui algumas diferenças fundamentais.
@@ -82,6 +82,24 @@ http://arquiteturadeinformacao.com/mobile/o-que-e-responsive-web-design/
 		- Os browsers mobile tentam exibir páginas web feitas somente para desktop ajustando, 
 		  automaticamente, o zoom do display, e a tag viewport sever para contornar essa 
 		  característica dos navegadores mobile;
+          
+        - é possível especificar paremetros para a meta tag viewport, como se fossem
+          “resoluções personalizadas”. Os principais parametros são: width, height, e
+          initial-scale [define a escala inicial (zoom) inicial da viewport];
+          
+        - existe uma forma de especificar automaticamente o tamanho do device, usando uma 
+          variável que, por padrão, já contém a largura do dispositivo que está realizando 
+          o acesso naquele momento: <meta name="viewport" content="width=device-width">
+          
+        - juntamente com width=device-width da meta tag viewport, é bom usar a initial-scale em 1
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          
+    
+    - Convertendo um layout fixo em layout fluído
+        
+          
+          
+        
 		
 		
 		
@@ -90,5 +108,4 @@ http://arquiteturadeinformacao.com/mobile/o-que-e-responsive-web-design/
 
 # filosofia mobile first
   
-
 
