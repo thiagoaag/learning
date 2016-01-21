@@ -1,0 +1,12 @@
+babel
+-------------------------
+
+https://babeljs.io/
+
+http://chuckconway.com/2015/02/21/using-javascript-6-getting-started-today-with-babel-js/
+
+----------------------------------------------
+
+
+$ npm install --global babel
+
