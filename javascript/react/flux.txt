@@ -17,6 +17,12 @@ https://facebook.github.io/flux/docs/overview.html
   
 - ENTENDENDO FLUX
   http://dextra.com.br/pt/entendendo-flux-2/
+  
+- Getting To Know Flux, the React.js Architecture 
+  https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture
+  
+- Gentle Introduction to the React Flux Architecture
+  https://egghead.io/articles/gentle-introduction-to-the-react-flux-architecture
 
 - My thoughts on my first Flux application
   https://medium.com/@_weslleyaraujo/my-thoughts-on-my-first-flux-application-a1fd1cccd724#.ml816r5xy
