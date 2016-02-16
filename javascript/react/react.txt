@@ -1,0 +1,19 @@
+react
+-------------------------------------------------------------------------
+https://facebook.github.io/react/
+-------------------------------------------------------------------------
+
+- Começando com React
+  https://www.hugobessa.com.br/posts/comecando-com-react/
+
+- Building Plugins for React Apps
+  https://nylas.com/blog/react-plugins/
+  
+- React for beginners (no free)
+  https://reactforbeginners.com/
+  
+- react-flux-puzzle (game)
+  https://github.com/weslleyaraujo/react-flux-puzzle
+
+
+-------------------------------------------------------------------------
