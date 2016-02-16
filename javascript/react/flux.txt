@@ -3,9 +3,28 @@ flux
 https://facebook.github.io/flux/docs/overview.html
 -------------------------------------------------------------------------
 
-
+- Flux: Entenda como funciona a arquitetura Flux com React
+  http://tableless.com.br/flux-entenda-como-funciona-arquitetura-flux-com-react/
+  
+- Como funciona a arquitetura Flux?
+  http://pt.stackoverflow.com/a/27862/40868
+  
+- Arquitetura com Flux | Eric Yoshi | Papo Reto
+  http://labs.bluesoft.com.br/arquitetura-com-flux/
+  
+- Flux — A arquitetura do Facebook para desenvolvimento FrontEnd
+  https://medium.com/@henricavalcante/flux-a-arquitetura-do-facebook-para-desenvolvimento-frontend-2bf7192c8f77#.fqwb3k7u5
+  
+- ENTENDENDO FLUX
+  http://dextra.com.br/pt/entendendo-flux-2/
 
 - My thoughts on my first Flux application
-  https://medium.com/@_weslleyaraujo/my-thoughts-on-my-first-flux-application-a1fd1cccd724
+  https://medium.com/@_weslleyaraujo/my-thoughts-on-my-first-flux-application-a1fd1cccd724#.ml816r5xy
+  
+- ENTENDENDO FLUX
+  http://rafaell-lycan.com/2015/entendendo-flux/
+  
+- Flux compartions implementations
+  https://github.com/voronianski/flux-comparison
 
 -------------------------------------------------------------------------
