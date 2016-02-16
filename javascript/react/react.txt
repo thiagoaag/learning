@@ -5,6 +5,12 @@ https://facebook.github.io/react/
 
 - Começando com React
   https://www.hugobessa.com.br/posts/comecando-com-react/
+  
+- React.js Essentials
+  https://dzone.com/refcardz/reactjs-essentials
+
+- Getting Started with Redux
+  https://egghead.io/lessons/javascript-redux-the-single-immutable-state-tree
 
 - Building Plugins for React Apps
   https://nylas.com/blog/react-plugins/
