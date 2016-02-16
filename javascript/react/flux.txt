@@ -12,6 +12,15 @@ https://facebook.github.io/flux/docs/overview.html
 - Arquitetura com Flux | Eric Yoshi | Papo Reto
   http://labs.bluesoft.com.br/arquitetura-com-flux/
   
+- Flux: A simple architecture model to build Client-side apps!
+  http://www.infoq.com/br/presentations/flux-simple-architecture-model
+  
+- Flux: Entenda como funciona a arquitetura Flux com React
+  http://macgyvermartins.com.br/como-funciona-a-arquitetura-flux-com-react/
+  
+- What the Flux? (On Flux, DDD, and CQRS)
+  http://jaysoo.ca/2015/02/06/what-the-flux/
+  
 - Flux — A arquitetura do Facebook para desenvolvimento FrontEnd
   https://medium.com/@henricavalcante/flux-a-arquitetura-do-facebook-para-desenvolvimento-frontend-2bf7192c8f77#.fqwb3k7u5
   
@@ -39,3 +48,28 @@ https://facebook.github.io/flux/docs/overview.html
 redux
 ----------
 http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html
+
+o que é
+	modelo de arquitetrua, um conceito de arquitetura client-side, com
+	fluxo uniderecional.
+	
+	
+	dispatcher
+		capta e administra todas as chamandas vindas das 'actions' e envia
+		para a 'store'.
+		O ideal é que ele seja único no contexto da aplicação
+		
+	store
+		workflow
+		onde fica a lógica (dominio da apliação) e o 'apliction state'
+		envia eventos para as 'actions' para que possam ser renderizadas
+		
+	view (controler-view)
+		escuta eventos
+		são os 'react components'
+	
+	actions
+		envia informações par ao 'dispacher'
+
+
+
