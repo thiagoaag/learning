@@ -1,0 +1,29 @@
+SprigBoot
+-------------------------------------------------------------
+
+http://www.k19.com.br/artigos/primeira-aplicacao-com-spring-mvc-e-spring-boot/
+
+
+
+-------------------------------------------------------------
+
+Spring MVC é um front-end controller e segue o padrão MVC de arquitetura
+Spring MVC é não armazenar estados entre as requisições, framework stateless
+Spring Boot. Spring Boot permite criarmos aplicações web em Java sem a necessidade de configuração e uso de XML, utilizando o conceito de Convenção sobre Configuração (convention over configuration)
+
+Spring Boot permite criarmos aplicações Java standalone
+servidor embarcado, um Tomcat
+
+@SpringBootApplication. Ela é um Sterotype do Spring Boot que já encapsula algumas outras annotations, como a @EnableAutoConfiguration. Essa última, por sua vez, carrega a AutoConfigurationPackages que é responsável por configurar os pacotes que devem ser escaneados, baseados na localização da sua classe.
+
+The annotation @SpringBootApplication enables the Spring Context and all the startup magic of Spring Boot.
+
+
+Thymeleaf - template resolver
+
+
+
+
+
+
+
