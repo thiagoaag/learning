@@ -3,6 +3,9 @@ flux
 https://facebook.github.io/flux/docs/overview.html
 -------------------------------------------------------------------------
 
+- Flux — A arquitetura do Facebook para desenvolvimento FrontEnd
+  https://medium.com/@henricavalcante/flux-a-arquitetura-do-facebook-para-desenvolvimento-frontend-2bf7192c8f77#.fqwb3k7u5
+
 - Como funciona a arquitetura Flux?
   http://pt.stackoverflow.com/a/27862/40868
 
@@ -14,10 +17,7 @@ https://facebook.github.io/flux/docs/overview.html
   
 - What the Flux? (On Flux, DDD, and CQRS)
   http://jaysoo.ca/2015/02/06/what-the-flux/
-  
-- Flux — A arquitetura do Facebook para desenvolvimento FrontEnd
-  https://medium.com/@henricavalcante/flux-a-arquitetura-do-facebook-para-desenvolvimento-frontend-2bf7192c8f77#.fqwb3k7u5
-  
+
 - ENTENDENDO FLUX
   http://dextra.com.br/pt/entendendo-flux-2/
   
@@ -44,26 +44,36 @@ redux
 http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html
 
 o que é
-	modelo de arquitetrua, um conceito de arquitetura client-side, com
-	fluxo uniderecional.
+	modelo de arquitetrua;
+	um conceito de arquitetura client-side, com	fluxo uniderecional.
 	
 	
-	dispatcher
-		capta e administra todas as chamandas vindas das 'actions' e envia
-		para a 'store'.
-		O ideal é que ele seja único no contexto da aplicação
-		
-	store
-		workflow
-		onde fica a lógica (dominio da apliação) e o 'apliction state'
-		envia eventos para as 'actions' para que possam ser renderizadas
-		
-	view (controler-view)
-		escuta eventos
-		são os 'react components'
 	
 	actions
-		envia informações par ao 'dispacher'
+		. envia informações par ao 'dispacher';
+		. são métodos para auxiliar o envio de informações ao dispatcher
+	
+	dispatcher
+		. baseado no padrão Publish Subscribe;
+		. é essencialmente, um registro de callbacks para as stores;
+		. capta e administra todas as chamandas vindas das 'actions' e envia para a 'store';
+		. o ideal é que ele seja único no 'dispacher' no contexto da aplicação;
+		. é como uma central da sua aplicação, esponsável por registrar callbacks e emitir eventos;
+		. cada store se registra e fornece uma callback.
+		
+	store
+		. workflow;
+		. uma Store se registra com o dispatcher, dando-lhe uma callback;
+		. onde fica a lógica (dominio da apliação) e o 'apliction state' estado da apliação;
+		. envia eventos para as 'views' para que possam ser atualizadas.
+		
+	view (controler-view)
+		. são os 'react components';
+		. um tipo especial de view escuta eventos que são transmitidos pelas stores dos quais ele depende;
+		. pode-se chamar isso de view do controlador, uma vez que fornece o código para obter os dados 
+			das stores e passar esses dados para baixo na cadeia de seus descendentes;
+		. podemos ter uma view-controller para controlar qualquer parte significativa da página;
+		. as view-controllers acionam diretamente as suas stores;
 
 
 
