@@ -51,10 +51,11 @@ o que é
 	
 	actions
 		. envia informações par ao 'dispacher';
-		. são métodos para auxiliar o envio de informações ao dispatcher
+		. são métodos para auxiliar o envio de informações ao dispatcher;
 	
 	dispatcher
-		. baseado no padrão Publish Subscribe;
+		. É um concentrador de fluxo de dados que é usado para retransmitir os dados 
+			para todos que devem receber aquela informação, baseado no padrão 'Publish Subscribe';
 		. é essencialmente, um registro de callbacks para as stores;
 		. capta e administra todas as chamandas vindas das 'actions' e envia para a 'store';
 		. o ideal é que ele seja único no 'dispacher' no contexto da aplicação;
@@ -63,12 +64,14 @@ o que é
 		
 	store
 		. workflow;
+		. é o lugar onde fica armazenado toda a lógica e o estado de sua aplicação que tem callbacks
+			registrados para o dispatcher.
 		. uma Store se registra com o dispatcher, dando-lhe uma callback;
 		. onde fica a lógica (dominio da apliação) e o 'apliction state' estado da apliação;
 		. envia eventos para as 'views' para que possam ser atualizadas.
 		
 	view (controler-view)
-		. são os 'react components';
+		. são os 'react components' React, que trazem os estados dos stores e passam para os filhos em suas 'props';
 		. um tipo especial de view escuta eventos que são transmitidos pelas stores dos quais ele depende;
 		. pode-se chamar isso de view do controlador, uma vez que fornece o código para obter os dados 
 			das stores e passar esses dados para baixo na cadeia de seus descendentes;
