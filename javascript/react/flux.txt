@@ -3,15 +3,9 @@ flux
 https://facebook.github.io/flux/docs/overview.html
 -------------------------------------------------------------------------
 
-- Flux: Entenda como funciona a arquitetura Flux com React
-  http://tableless.com.br/flux-entenda-como-funciona-arquitetura-flux-com-react/
-  
 - Como funciona a arquitetura Flux?
   http://pt.stackoverflow.com/a/27862/40868
-  
-- Arquitetura com Flux | Eric Yoshi | Papo Reto
-  http://labs.bluesoft.com.br/arquitetura-com-flux/
-  
+
 - Flux: A simple architecture model to build Client-side apps!
   http://www.infoq.com/br/presentations/flux-simple-architecture-model
   
