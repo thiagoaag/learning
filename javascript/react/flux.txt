@@ -11,6 +11,9 @@ https://facebook.github.io/flux/docs/overview.html
 
 - Flux: A simple architecture model to build Client-side apps!
   http://www.infoq.com/br/presentations/flux-simple-architecture-model
+
+- Flux For Stupid People
+  http://blog.andrewray.me/flux-for-stupid-people/
   
 - Flux: Entenda como funciona a arquitetura Flux com React
   http://macgyvermartins.com.br/como-funciona-a-arquitetura-flux-com-react/
@@ -51,32 +54,37 @@ o que é
 	
 	actions
 		. envia informações par ao 'dispacher';
-		. são métodos para auxiliar o envio de informações ao dispatcher;
+		. são métodos para auxiliar o envio de informações ao 'dispatcher';
 	
 	dispatcher
-		. É um concentrador de fluxo de dados que é usado para retransmitir os dados 
+		. é um concentrador de fluxo de dados que é usado para retransmitir os dados 
 			para todos que devem receber aquela informação, baseado no padrão 'Publish Subscribe';
-		. é essencialmente, um registro de callbacks para as stores;
-		. capta e administra todas as chamandas vindas das 'actions' e envia para a 'store';
+		. é essencialmente, um registro de callbacks para as 'stores';
+		. capta e administra todas as chamandas vindas das 'actions' e envia para a 'stores';
 		. o ideal é que ele seja único no 'dispacher' no contexto da aplicação;
 		. é como uma central da sua aplicação, esponsável por registrar callbacks e emitir eventos;
-		. cada store se registra e fornece uma callback.
+		. registro das 'stores' através callback;
+		. faz o gerenciamento de dados da aplicação baseado nas ações 'actions';
 		
 	store
 		. workflow;
+		. recebe dados por meio de 'payload';
 		. é o lugar onde fica armazenado toda a lógica e o estado de sua aplicação que tem callbacks
-			registrados para o dispatcher.
-		. uma Store se registra com o dispatcher, dando-lhe uma callback;
+			registrados para o 'dispatcher'.
+		. uma Store se registra com o 'dispatcher', dando-lhe uma callback;
 		. onde fica a lógica (dominio da apliação) e o 'apliction state' estado da apliação;
-		. envia eventos para as 'views' para que possam ser atualizadas.
+		. public interface somente com 'getters', NÃO 'setters';
+		. emite eventos de mudança (envia eventos para as 'views' para que possam ser atualizadas).
 		
 	view (controler-view)
 		. são os 'react components' React, que trazem os estados dos stores e passam para os filhos em suas 'props';
-		. um tipo especial de view escuta eventos que são transmitidos pelas stores dos quais ele depende;
-		. pode-se chamar isso de view do controlador, uma vez que fornece o código para obter os dados 
+		. um tipo especial de 'view' escuta eventos que são transmitidos pelas stores dos quais ele depende;
+		. pode-se chamar isso de 'view' do controlador, uma vez que fornece o código para obter os dados 
 			das stores e passar esses dados para baixo na cadeia de seus descendentes;
-		. podemos ter uma view-controller para controlar qualquer parte significativa da página;
-		. as view-controllers acionam diretamente as suas stores;
+		. podemos ter uma 'view-controller' para controlar qualquer parte significativa da página;
+		. as 'view-controllers' acionam diretamente as suas stores;
 
 
 
+Status API Training Shop Blog About Pricing
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
