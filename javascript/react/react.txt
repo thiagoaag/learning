@@ -9,6 +9,9 @@ https://facebook.github.io/react/
 - React.js Essentials
   https://dzone.com/refcardz/reactjs-essentials
 
+- React.js Tutorial Pt 1: A Comprehensive Guide to Building Apps with React.js
+  http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/
+
 - Getting Started with Redux
   https://egghead.io/lessons/javascript-redux-the-single-immutable-state-tree
 
