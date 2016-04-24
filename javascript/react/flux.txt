@@ -48,12 +48,12 @@ http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html
 
 o que é
 	modelo de arquitetrua;
-	um conceito de arquitetura client-side, com	fluxo uniderecional.
+	um conceito de arquitetura client-side, com fluxo uniderecional.
 	
 	
 	
 	actions
-		. envia informações par ao 'dispacher';
+		. envia informações para o 'dispacher';
 		. são métodos para auxiliar o envio de informações ao 'dispatcher';
 	
 	dispatcher
@@ -61,9 +61,9 @@ o que é
 			para todos que devem receber aquela informação, baseado no padrão 'Publish Subscribe';
 		. é essencialmente, um registro de callbacks para as 'stores';
 		. capta e administra todas as chamandas vindas das 'actions' e envia para a 'stores';
-		. o ideal é que ele seja único no 'dispacher' no contexto da aplicação;
-		. é como uma central da sua aplicação, esponsável por registrar callbacks e emitir eventos;
-		. registro das 'stores' através callback;
+		. o ideal é que ele seja único 'dispacher' (singleton) no contexto da aplicação;
+		. é como uma central da sua aplicação, responsável por registrar callbacks e emitir eventos;
+		. registro das 'stores' é feito informando seus callbacks;
 		. faz o gerenciamento de dados da aplicação baseado nas ações 'actions';
 		
 	store
