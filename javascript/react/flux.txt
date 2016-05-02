@@ -38,6 +38,9 @@ https://facebook.github.io/flux/docs/overview.html
   
 - Flux compartions implementations
   https://github.com/voronianski/flux-comparison
+ 
+- Flux Utils
+  https://facebook.github.io/flux/docs/flux-utils.html
 
 -------------------------------------------------------------------------
 
